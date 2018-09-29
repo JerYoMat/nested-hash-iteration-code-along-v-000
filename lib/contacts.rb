@@ -15,11 +15,11 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"].each do |category, data_hashes|
+  contacts["Freddy Mercury"].each do |category, data_array|
     if category == :favorite_ice_cream_flavors
-      data_hashes.each do |flavor|
-      binding.pry 
-      end 
+    new_flavors = data_array.select {|flavor| flavor != "strawberry"}
+    data_array = new_flavors
+     
     end 
   end 
 
