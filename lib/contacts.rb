@@ -20,7 +20,12 @@ def remove_strawberry(contacts)
     contact_details_hash.each do |category, data|
       if category == :favorite_ice_cream_flavors
         data.collect do |flavor|
-          flavor if flavor != "strawberry"
+          if flavor == "strawberry"
+            nil 
+          else
+            flavor 
+          end 
+          
    
         end
       end 
