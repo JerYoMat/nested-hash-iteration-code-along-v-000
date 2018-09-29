@@ -23,7 +23,7 @@ contacts["Freddy Mercury"].each do |key, value|
       key.delete(flavor) if flavor == "strawberry"
     end 
   end 
- binding.pry 
+ 
 end 
   
 end 
