@@ -20,11 +20,11 @@ def remove_strawberry(contacts)
     if person == "Freddy Mercury"
     contact_details_hash.each do |category, data|
       if category == :favorite_ice_cream_flavors
-        data.collect do |flavor|
+        data.each_with_index do |flavor|
           if flavor == "strawberry"
             nil 
           else
-            flavor 
+            data[i] = flavor 
           end 
        
    end 
@@ -32,7 +32,7 @@ def remove_strawberry(contacts)
       end 
     end 
   end 
-contacts 
+
 end 
 
 
