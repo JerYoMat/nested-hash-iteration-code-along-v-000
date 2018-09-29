@@ -18,7 +18,7 @@ def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each do |category, data_array|
     if category == :favorite_ice_cream_flavors
     new_flavors = data_array.select {|flavor| flavor != "strawberry"}
-    category = new_flavors 
+    contacts["Freddy Mercury"][:favorite_ice_cream_flavors] = new_flavors
 
     end 
   end 
