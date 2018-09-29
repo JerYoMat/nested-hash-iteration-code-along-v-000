@@ -23,4 +23,4 @@ contacts["Freddy Mercury"].each do |key, value|
   end 
 end 
 
-end
+
