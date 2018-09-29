@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
       if category == :favorite_ice_cream_flavors
         data.collect do |flavor|
           flavor if flavor != "strawberry"
-          binding.pry 
+   
         end
       end 
     end 
