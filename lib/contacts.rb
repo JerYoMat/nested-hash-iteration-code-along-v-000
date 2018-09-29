@@ -19,10 +19,10 @@ def remove_strawberry(contacts)
     if category == :favorite_ice_cream_flavors
     new_flavors = data_array.select {|flavor| flavor != "strawberry"}
     data_array = new_flavors
-     
+    
     end 
   end 
-
+contacts 
 
 end 
 
