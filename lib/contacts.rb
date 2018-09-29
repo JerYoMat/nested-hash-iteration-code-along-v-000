@@ -25,7 +25,7 @@ def remove_strawberry(contacts)
           else
             flavor 
           end 
-          
+          binding.pry 
    
         end
       end 
