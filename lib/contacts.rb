@@ -21,6 +21,7 @@ one_lvl_down =contacts["Freddy_Mercury"]
         one_lvl_down[:favorite_ice_cream_flavors] = category.select do |flavor|
           one_lvl_down[:favorite_ice_cream_flavors] if flavor != "strawberry"
         end 
+        end 
       end 
     end 
   end 
